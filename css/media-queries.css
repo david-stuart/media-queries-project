@@ -39,6 +39,7 @@ img {
     height: auto;
     width: 100%;
     max-width: 890px;
+    clear: both;
 }
 .sub-section {
     font-style: italic;
@@ -59,11 +60,29 @@ footer {
     h1 {
         text-align: left;
         font-size: 3em;
-        /*float: left;*/
+        float: left;
     }
     li {
         display: inline;
         background: none;
-        /*float: right;*/
+        /*float: left;*/
+    }
+    ul {
+        float: right;
+        position: relative;
+        top: 3em;
+    }
+    .main{
+        float: left;
+        width: calc(60% - 2em);
+        margin: 0 1em;
+    }
+    .sub-section {
+        float: left;
+        width: calc(40% - 2em);
+        margin: 0 1em;
+    }
+    footer {
+        clear: both;
     }
 }
