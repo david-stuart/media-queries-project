@@ -18,4 +18,17 @@ body {
     color: dimgrey;
     text-decoration: none;
 }
-
+h1 {
+    text-align: center;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    text-align: center;
+    background: grey;
+    margin: .5em 0;
+    width: calc(100%-2em);
+    padding: .75em;
+}
