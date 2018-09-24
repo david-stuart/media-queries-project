@@ -1,0 +1,21 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+.alert-info {
+    width: calc(100% - 36px);
+    background: cyan;
+    border: grey 2px solid;
+    text-align: center;
+    padding: 1em;
+    margin: 1em auto;
+}
+.alert-info a {
+    color: dimgrey;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+.alert-info a:visited {
+    color: dimgrey;
+    text-decoration: none;
+}
+
