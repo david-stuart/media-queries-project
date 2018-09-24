@@ -43,3 +43,20 @@ footer {
 #social-media-links {
     float: right;
 }
+
+@media screen and (min-width:800px) {
+    .hidden-on-desktop {
+        display: none;
+    }
+    h1 {
+        text-align: left;
+        font-size: 3em;
+        /*float: left;*/
+    }
+    li {
+        display: inline;
+        background: none;
+        /*float: right;*/
+    }
+
+}
